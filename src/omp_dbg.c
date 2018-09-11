@@ -2,6 +2,8 @@
 
 void DBG_Init(long *ThreadID){}
 
+void DBG_Finalize(){}
+
 void DBG_Get_Handle(long *StaticContextHandle, char* ContextString, long StringLength){}
 
 void DBG_BeforeParallel (long *StaticContextHandle, long *ThreadID, int *NumThreadsResults, int *IfExprResult){}
